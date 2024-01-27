@@ -87,7 +87,7 @@ app.delete("/students/:id", (req, res) => {
     if (index === -1) {
       res.status(404).json({ message: "Student not found with the given ID" });
     } else {
-      totalData = totalData.students.filter((data) => data.id != id);
+      totalData.students = totalData.students.filter((data) => data.id != id);
       fs.writeFileSync("./db.json", JSON.stringify(totalData));
       res.status(200).json(totalData);
     }
