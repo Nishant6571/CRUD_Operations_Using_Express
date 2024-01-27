@@ -1,0 +1,9 @@
+{
+  "students": [
+    { "id": 1, "name": "Nishant Bhargava", "age": 26 },
+    { "id": 2, "name": "Anjali", "age": 25 },
+    { "id": 3, "name": "Aishwarya Lokhare", "age": 23 },
+    { "id": 4, "name": "Shubham Bhargava", "age": 22 }
+  ],
+  "teachers": [{ "id": 1, "name": "Pulkit Tyagi", "age": 28 }]
+}
